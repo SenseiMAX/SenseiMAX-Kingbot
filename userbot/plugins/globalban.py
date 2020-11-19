@@ -55,8 +55,8 @@ async def get_user_from_id(user, event):
         return None
     return user_obj
 
-@borg.on(admin_cmd(pattern="gben ?(.*)"))
-async def gben(userbot):
+@borg.on(admin_cmd(pattern="gban ?(.*)"))
+async def gban(userbot):
     dc = userbot
     sender = await dc.get_sender()
     me = await dc.client.get_me()
@@ -121,8 +121,8 @@ async def gben(userbot):
     )
 
 
-@borg.on(admin_cmd(pattern="ungben ?(.*)"))
-async def gunben(userbot):
+@borg.on(admin_cmd(pattern="ungban ?(.*)"))
+async def ungban(userbot):
     dc = userbot
     sender = await dc.get_sender()
     me = await dc.client.get_me()
