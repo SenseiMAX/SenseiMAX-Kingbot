@@ -1,11 +1,10 @@
 import time
 
-from uniborg.util import friday_on_cmd, sudo_cmd
-
-from fridaybot import ALIVE_NAME, CMD_HELP, Lastupdate
-from fridaybot.Configs import Config
-from fridaybot.modules import currentversion
-
+import asyncio
+from telethon import events
+from uniborg.util import admin_cmd
+from userbot import ALIVE_NAME
+from telethon.tl.types import ChannelParticipantsAdmins
 
 # Functions
 def get_readable_time(seconds: int) -> str:
@@ -53,21 +52,16 @@ pm_caption += "🔸**Made By 😎** : [This Peros](https://t.me/senseimaxxx)\n\n
 pm_caption += "➥ **Check Stats By Doing** `.stat`. \n\n"
 pm_caption += "🔻Deploy ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot : [ℝ𝕖𝕡𝕠](https://github.com/SenseiMAX/SenseiMAX-Kingbot)\n"
 
-
-@friday.on(friday_on_cmd(pattern=r"alive"))
-@friday.on(sudo_cmd(pattern=r"alive", allow_sudo=True))
+@borg.on(admin_cmd(pattern=r"alive"))
 async def friday(alive):
-    await alive.get_chat()
+    chat = await alive.get_chat()
     """ For .alive command, check if the bot is running.  """
-    await borg.send_file(alive.chat_id, PM_IMG, caption=pm_caption)
+    await borg.send_file(alive.chat_id, PM_IMG,caption=pm_caption)
     await alive.delete()
 
-
-CMD_HELP.update(
-    {
-        "alive": "**ALive**\
-\n\n**Syntax : **`.alive`\
-\n**Usage :** Check if UserBot is Alive"
-    }
-)
-
+    
+@borg.on(admin_cmd(pattern=r"Alive", allow_sudo=True))
+async def friday(alive):
+    chat = await alive.get_chat()
+    """ For .alive command, check if the bot is running.  """
+    await borg.send_file(alive.chat_id, PM_IMG,caption=pm_caption
