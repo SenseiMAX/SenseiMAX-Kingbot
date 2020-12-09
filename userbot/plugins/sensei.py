@@ -20,7 +20,7 @@ async def _(event):
             "@Sensei_nex tera baap",
             "@Sensei_nex is bot ka creator",
             "@Sensei_nex bot ko jaan dene wala",
-            "@Sensei_nex owner of @Sensible_userbot ",
+            "@Sensei_nex owner of @SenseiMAXprojects ",
             "tujhe aur kya chaiye vo hai mere sath",
             "tera baap",
             "@Sensei_nex"
