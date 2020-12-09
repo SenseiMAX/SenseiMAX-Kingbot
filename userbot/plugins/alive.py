@@ -13,7 +13,7 @@ pm_caption += "🔻`DATABASE STATUS:` **Functional**\n"
 pm_caption += "🔶**Current Branch** : `master`\n"
 pm_caption += "🔷*ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ OS** : `2.14`\n"
 pm_caption += f"🔹**My Boss** : {DEFAULTUSER} \n"
-pm_caption += "🔸**Made By 😎 : [This nub](https://t.me/senseimaxxx)\n\n"
+pm_caption += "🔸**MAh Lord 😎 : [This nub](https://t.me/sensei_nex)\n\n"
 pm_caption += "👀 Wanna have a  : [ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot](https://github.com/SenseiMAX/SenseiMAX-Kingbot)\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
