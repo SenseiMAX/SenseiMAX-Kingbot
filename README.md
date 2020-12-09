@@ -67,7 +67,7 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 
 
 
-![Sensei](https://media.giphy.com/media/xT0GqimU9dTwmE5lra/giphy.gif)
+![Sensei](hhttps://telegra.ph/file/df6dbf1af0d780e38d33c.gif)
    
    
    -[MaxPrem](https://t.me/@HackerPrem)🔥🔥 Co-Owner of this repo 🔥🔥
