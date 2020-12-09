@@ -1,7 +1,7 @@
 # ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ ᛕᎥᑎǤᗷᗝ丅
 
 <p align="center">
-<img src="https://telegra.ph/file/baa15a8de41cbb04eee33.gif" alt="ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ ᛕᎥᑎǤᗷᗝ丅">
+<img src="fbfa604b9b3bc436a5635.gif" alt="ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ ᛕᎥᑎǤᗷᗝ丅">
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
