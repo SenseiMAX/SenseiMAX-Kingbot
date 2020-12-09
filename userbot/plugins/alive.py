@@ -1,5 +1,3 @@
-
-    """Check if userbot alive. If you change these, you become the gayest gay such that even the gay world will disown you."""
 #IMG CREDITS: @WhySooSerious
 import asyncio
 from telethon import events
