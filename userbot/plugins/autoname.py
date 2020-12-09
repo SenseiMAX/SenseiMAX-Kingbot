@@ -10,7 +10,7 @@ from userbot import ALIVE_NAME
 
 
 DEL_TIME_OUT = 60
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "#ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ ᛕᎥᑎǤᗷᗝ丅 "
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "🔥ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ ᛕᎥᑎǤᗷᗝ丅user "
 
 
 @borg.on(admin_cmd(pattern="autoname"))  # pylint:disable=E0602
@@ -20,7 +20,7 @@ async def _(event):
     while True:
         DM = time.strftime("%d-%m-%y")
         HM = time.strftime("%H:%M")
-        name = f"🕒{HM} 🔰{DEFAULTUSER}🔰#ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ ᛕᎥᑎǤᗷᗝ丅user 📅{DM}"
+        name = f"⚠️🕒{HM} 🔱╚»★{DEFAULTUSER}«╝⫸🔱 🔥ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ ᛕᎥᑎǤᗷᗝ丅user 📅{DM}"
         logger.info(name)
         try:
             await borg(functions.account.UpdateProfileRequest(  # pylint:disable=E0602
@@ -37,4 +37,4 @@ async def _(event):
             #     "Successfully Changed Profile Name"
             # )
         await asyncio.sleep(DEL_TIME_OUT)
-    await event.edit(f"Auto Name has been started Master") 
+    await event.edit(f"Well ! Its done bruh , Now you get your SARKAARI name 🤤") 
