@@ -16,7 +16,7 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "please check out to an official branch, and re-start the updater."
 )
 OFFICIAL_UPSTREAM_REPO = "https://github.com/SenseiMAX/SenseiMAX-Kingbot"
-BOT_IS_UP_TO_DATE = "❂ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbo is up-to-date!❂"
+BOT_IS_UP_TO_DATE = "❂ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbot is up-to-date!❂"
 NEW_BOT_UP_DATE_FOUND = (
     "**ᔕᗴᑎᔕᗴᎥᗰᗩ᙭-Kingbo Update Found For** {branch_name}\n"
     "\n\n{changelog}\n"
