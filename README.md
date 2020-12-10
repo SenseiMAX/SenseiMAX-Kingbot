@@ -1,7 +1,5 @@
-# ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ ᛕᎥᑎǤᗷᗝ丅
-
-<p align="center">
-<img src="fbfa604b9b3bc436a5635.gif" alt="ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ ᛕᎥᑎǤᗷᗝ丅">
+<p align="center"><a href="https://t.me/senseiMAXprojects"><img src="fbfa604b9b3bc436a5635.gif" width="5000"></a></p> 
+<h1 align="center"><b>🇮🇳 ᔕᗴᑎᔕᗴᎥᗰᗩ᙭ ᛕᎥᑎǤᗷᗝ丅 🇮🇳 </b></h1>
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
